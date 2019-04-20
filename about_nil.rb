@@ -36,3 +36,5 @@ class AboutNil < Neo::Koan
   end
 
 end
+
+# .inspect method return a string containing the representation of the object. 
