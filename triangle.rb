@@ -14,7 +14,10 @@
 #   about_triangle_project_2.rb
 #
 def triangle(a, b, c)
-  # WRITE THIS CODE
+  array = [a, b, c].map{|side| side.odd?
+  :equilateral if array.length == 0
+  :isosceles if array.length == 1
+  :scalene if array.length == 2
 end
 
 # Error class used in part 2.  No need to change this code.
